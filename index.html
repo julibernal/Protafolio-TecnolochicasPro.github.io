@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Julisa Bernal">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Julisa Bernal | Desarrollo Web</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/yo2.jpg" alt="Foto de Julisa Bernal">
+        <h1>Hola, soy Julisa Bernal</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://th.bing.com/th/id/R.c46b36043bd674f2d549aea241de9001?rik=gCmBWXju5c92Cg&pid=ImgRaw&r=0" width="450px" alt="Imagen de Tecnolochicas">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Julisa Bernal</h2>
+        <p class="seccion-texto">Soy estuduante de la Licenciatura en Administración en la Facultad de Contaduría y Administración de la Universidad Autónoma del Estado de México. Actualmente me encuentro tomando un curso de Desarrollo de Páginas Web en TECNOLOCHICAS PRO. Cuento con certificanes como; Certificación MS Office, Informática. Técnico en Redes de Datos. Técnico en Seguridad Informática/Servidores.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Hobbies-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Hobbies</p>
+            <p>Me gusta la tecnología, brindar atención y resolución de dudas a las personas, me apasiona la gastronomía, de igual manera bailar, el diseño de modas, confeccionar, crear y plasmar mis ideas y gustos.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-dark">Gastronomía</span>
+              <span class="badge text-bg-dark">Moda</span>
+              <span class="badge text-bg-dark">Baile</span>
+              <span class="badge text-bg-dark">Música</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Técnico en Programación</p>
+            <p>Cuento con el Título de "Técnico en Programación" que cursé en bachillerato; fue ahí donde nació mi gusto por la tecnología. Obtuve un reconocimiento por participar en la exposición de proyectos académicos, gané el primer lugar a nivel local en la olimpiada de física, y por último pero no menos importante, conseguí el cuarto lugar en el concurso de oratoria.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-dark">Oratoria</span>
+              <span class="badge text-bg-dark">Física</span>
+              <span class="badge text-bg-dark">Tecnología</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Actualmente estoy cursando la Licenciatura de Administración de Empresas en la Facultad de Contaduría y Administración. Al mismo tiempo, soy becaria por parte de Tecnolochicas Pro, donde implemento los conocimientos previos y exploro más el mundo de la tecnología.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-dark">Tecnolochicas PRO</span>
+              <span class="badge text-bg-dark">Desarrollo Web</span>
+              <span class="badge text-bg-dark">Administración de Empresas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://img.icons8.com/?size=50&id=17950&format=png" alt="Proyecto 1">
+              <div class="overlay">
+              <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://julibernal.github.io/Clon-Google.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://julibernal.github.io/Clon-Google.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/p2.jpeg" width="100px" height="100px" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Twenty Five, Twenty One</p>
+                <div class="iconos-contenedor">
+                  <a href="https://julibernal.github.io/25-21.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://julibernal.github.io/25-21.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/png;base64,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" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Recetas</p>
+                <div class="iconos-contenedor">
+                  <a href="https://julibernal.github.io/Recetas-Juli.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+        <!--  <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- Proyecto 5 -->
+        <!--  <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- Proyecto 6 -->
+         <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-dark">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios </h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/ana.jpeg" alt="Foto de Ana">
+              <p class="testimonio-texto">La alumna Julisa ha demostrado un notable compromiso en el aula, destacándose por el desarrollo de proyectos de alta calidad que reflejan sus sólidos conocimientos en el ámbito del Frontend, específicamente en HTML y CSS. Además, muestra un compromiso constante con las fechas de entrega y exhibe una notable creatividad en sus trabajos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ana Villanueva</p>
+                <p class="cargo">Maestra de Tecnolochicas Pro</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/ali.jpeg" alt="Foto de Ali">
+              <p class="testimonio-texto">Fue increíble colaborar con Julisa, es una persona súper creativa, con gran orientación al detalle; sin duda alguna colaboraremos en futuros proyectos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alicia</p>
+                <p class="cargo">Compañera del curso Tecnolochicas Pro</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Dani.jpg" alt="Foto de Daniela">
+              <p class="testimonio-texto">Es una joven muy apasionada por la tecnología y la creatividad. Demostró una gran habilidad para manejar HTML y CSS. Le atrae la idea de poder construir algo desde cero y ver como sus ideas cobran vida en el mundo digital.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Daniela</p>
+                <p class="cargo">Compañera del curso Tecnolochicas Pro</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+       <a href="https://x.com/Julssber?t=lLNrW2KsCC8VNgGTfbsQOQ&s=09" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/julibernal" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>      <a href="https://www.linkedin.com/in/julisa-alondra-bernal-ar%C3%A9valo-6766b3208/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/julie.arev?igshid=MXBjaHNoYzFraWs0aw==" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Julisa Bernal (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
